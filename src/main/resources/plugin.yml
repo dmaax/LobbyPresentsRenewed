@@ -1,0 +1,9 @@
+name: LobbyPresentsRenewed
+version: '${project.version}'
+main: com.poompk.lobbypresentsrenewed.LobbyPresentsRenewed
+api-version: '1.13'
+prefix: LPR
+softdepend: [PlaceholderAPI]
+authors: [poompk, Dudumaax]
+description: A fork/rewrite of the original LobbyPresents plugin containing extra features and support for newer versions
+website: https://github.com/dmaax/LobbyPresentsRenewed
