@@ -13,6 +13,7 @@ public final class LobbyPresentsRenewed extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        setupConfig();
         if (!validVersion()) disablePlugin("You server is running a version that is not supported.");
         instance = this;
         registerEvents();
@@ -127,6 +128,12 @@ public final class LobbyPresentsRenewed extends JavaPlugin {
 
     private void registerCommands() {
 
+    }
+
+    private void setupConfig() {
+        saveDefaultConfig();
+        getConfig().options().copyDefaults(true);
+        saveConfig();
     }
 
 }
