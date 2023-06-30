@@ -1,5 +1,6 @@
 package com.poompk.lobbypresentsrenewed;
 
+import com.poompk.lobbypresentsrenewed.managers.ConfigManager;
 import com.poompk.lobbypresentsrenewed.versions.*;
 import org.bukkit.Bukkit;
 import org.bukkit.event.HandlerList;
@@ -8,6 +9,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public final class LobbyPresentsRenewed extends JavaPlugin {
 
     private static LobbyPresentsRenewed instance;
+    private ConfigManager configManager;
     private Presents presents;
     public Integer SERVER_VERSION;
 
@@ -16,6 +18,7 @@ public final class LobbyPresentsRenewed extends JavaPlugin {
         setupConfig();
         if (!validVersion()) disablePlugin("You server is running a version that is not supported.");
         instance = this;
+        configManager = new ConfigManager();
         registerEvents();
         registerCommands();
     }
@@ -128,6 +131,10 @@ public final class LobbyPresentsRenewed extends JavaPlugin {
 
     private void registerCommands() {
 
+    }
+
+    public ConfigManager getConfigManager() {
+        return configManager;
     }
 
     private void setupConfig() {
