@@ -40,3 +40,13 @@ action-bar:
   enabled: false
   world: {}
   update: 10
+
+# Sounds
+sounds:
+  can-claim: "ENTITY_PLAYER_LEVELUP"
+  claimed: "ENTITY_MULE_DEATH"
+
+# Rewards
+rewards:
+  type: custom
+  sequence-rewards: {}

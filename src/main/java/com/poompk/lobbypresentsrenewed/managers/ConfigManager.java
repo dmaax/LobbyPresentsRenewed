@@ -3,6 +3,8 @@ package com.poompk.lobbypresentsrenewed.managers;
 import com.poompk.lobbypresentsrenewed.LobbyPresentsRenewed;
 import org.bukkit.configuration.file.FileConfiguration;
 
+import java.util.List;
+
 public class ConfigManager {
 
     private final LobbyPresentsRenewed plugin = LobbyPresentsRenewed.getInstance();
@@ -87,6 +89,22 @@ public class ConfigManager {
 
     public int getActionBarUpdate() {
         return config.getInt("action-bar.update");
+    }
+
+    public String getCanClaimSound() {
+        return config.getString("sounds.can-claim");
+    }
+
+    public String getClaimedSound() {
+        return config.getString("sounds.claimed");
+    }
+
+    public String getRewardsType() {
+        return config.getString("rewards.type");
+    }
+
+    public List<String> getRewardsSequence() {
+        return config.getStringList("reward.sequence-rewards");
     }
 
 }
