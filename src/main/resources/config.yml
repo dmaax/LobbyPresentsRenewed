@@ -1,0 +1,42 @@
+#+--------------------------------------------------------+#
+#|               LobbyPresentsRenewed                     |#
+#|                                                        |#
+#| Original project: github.com/poompk1pk/LobbyPresents   |#
+#| Forked/Rewritten by: github.com/dmaax                  |#
+#| Source Code: github.com/dmaax/LobbyPresentsRenewed     |#
+#+--------------------------------------------------------+#
+
+# Debug mode aka more verbose output
+debug: false
+
+# SQL Settings
+sql:
+  # If you want to use sqlite, keep this as false
+  enabled: false
+  database: "lpr"
+  mysql:
+    hostname: "localhost"
+    port: 3306
+    username: "lpr"
+    password: ""
+
+# Language used
+language: en
+
+# Effects
+effects:
+  distance: 5
+  ticks: 40
+  click:
+    type: "EXPLOSION_HUGE"
+  can-claim:
+    type: "VILLAGER_HAPPY"
+    amount: 8
+  claimed:
+    type: "CRIT"
+
+# Action bar
+action-bar:
+  enabled: false
+  world: {}
+  update: 10
