@@ -80,6 +80,7 @@
             <scope>provided</scope>
         </dependency>
 
+        <!-- PlaceholderAPI -->
         <dependency>
             <groupId>me.clip</groupId>
             <artifactId>placeholderapi</artifactId>
