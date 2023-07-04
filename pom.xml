@@ -88,140 +88,157 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- 1.8 R1 -->
+        <!-- dmaax's custom 1.8 -> 1.13.2 NMS JAR file. #Comment if trying to build-->
         <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-1.8</artifactId>
-            <version>LATEST</version>
-            <scope>system</scope>
-            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.8.jar</systemPath>
+            <groupId>xyz.dmaax</groupId>
+            <artifactId>all-spigot-nms</artifactId>
+            <version>1.13.2</version>
+            <scope>provided</scope>
         </dependency>
 
-        <!-- 1.8 R2 -->
+        <!-- dmaax's custom 1.14.4 -> 1.20.1 NMS JAR file. #Comment if trying to build -->
         <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-1.8.3</artifactId>
-            <version>LATEST</version>
-            <scope>system</scope>
-            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.8.3.jar</systemPath>
+            <groupId>xyz.dmaax</groupId>
+            <artifactId>all-spigot-nms</artifactId>
+            <version>1.20.2</version>
+            <scope>provided</scope>
         </dependency>
 
-        <!-- 1.8 R3 -->
-        <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-1.8.8</artifactId>
-            <version>LATEST</version>
-            <scope>system</scope>
-            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.8.8.jar</systemPath>
-        </dependency>
+<!-- If cloning this repository, uncomment these dependencies and change accordingly -->
+<!--        &lt;!&ndash; 1.8 R1 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.spigotmc</groupId>-->
+<!--            <artifactId>spigot-1.8</artifactId>-->
+<!--            <version>LATEST</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.8.jar</systemPath>-->
+<!--        </dependency>-->
 
-        <!-- 1.9 R1 -->
-        <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-1.9.2</artifactId>
-            <version>LATEST</version>
-            <scope>system</scope>
-            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.9.2.jar</systemPath>
-        </dependency>
+<!--        &lt;!&ndash; 1.8 R2 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.spigotmc</groupId>-->
+<!--            <artifactId>spigot-1.8.3</artifactId>-->
+<!--            <version>LATEST</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.8.3.jar</systemPath>-->
+<!--        </dependency>-->
 
-        <!-- 1.9 R2 -->
-        <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-1.9.4</artifactId>
-            <version>LATEST</version>
-            <scope>system</scope>
-            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.9.4.jar</systemPath>
-        </dependency>
+<!--        &lt;!&ndash; 1.8 R3 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.spigotmc</groupId>-->
+<!--            <artifactId>spigot-1.8.8</artifactId>-->
+<!--            <version>LATEST</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.8.8.jar</systemPath>-->
+<!--        </dependency>-->
 
-        <!-- 1.10 R2 -->
-        <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-1.10.2</artifactId>
-            <version>LATEST</version>
-            <scope>system</scope>
-            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.10.2.jar</systemPath>
-        </dependency>
+<!--        &lt;!&ndash; 1.9 R1 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.spigotmc</groupId>-->
+<!--            <artifactId>spigot-1.9.2</artifactId>-->
+<!--            <version>LATEST</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.9.2.jar</systemPath>-->
+<!--        </dependency>-->
 
-        <!-- 1.11 R1 -->
-        <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-1.11.2</artifactId>
-            <version>LATEST</version>
-            <scope>system</scope>
-            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.11.2.jar</systemPath>
-        </dependency>
+<!--        &lt;!&ndash; 1.9 R2 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.spigotmc</groupId>-->
+<!--            <artifactId>spigot-1.9.4</artifactId>-->
+<!--            <version>LATEST</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.9.4.jar</systemPath>-->
+<!--        </dependency>-->
 
-        <!-- 1.12 R1 -->
-        <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-1.12.2</artifactId>
-            <version>LATEST</version>
-            <scope>system</scope>
-            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.12.2.jar</systemPath>
-        </dependency>
+<!--        &lt;!&ndash; 1.10 R2 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.spigotmc</groupId>-->
+<!--            <artifactId>spigot-1.10.2</artifactId>-->
+<!--            <version>LATEST</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.10.2.jar</systemPath>-->
+<!--        </dependency>-->
 
-        <!-- 1.13 R1 -->
-        <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-1.13</artifactId>
-            <version>LATEST</version>
-            <scope>system</scope>
-            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.13.jar</systemPath>
-        </dependency>
+<!--        &lt;!&ndash; 1.11 R1 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.spigotmc</groupId>-->
+<!--            <artifactId>spigot-1.11.2</artifactId>-->
+<!--            <version>LATEST</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.11.2.jar</systemPath>-->
+<!--        </dependency>-->
 
-        <!-- 1.13 R2 -->
-        <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-1.13.2</artifactId>
-            <version>LATEST</version>
-            <scope>system</scope>
-            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.13.2.jar</systemPath>
-        </dependency>
+<!--        &lt;!&ndash; 1.12 R1 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.spigotmc</groupId>-->
+<!--            <artifactId>spigot-1.12.2</artifactId>-->
+<!--            <version>LATEST</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.12.2.jar</systemPath>-->
+<!--        </dependency>-->
 
-        <!-- 1.14 R1 -->
-        <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-1.14.4</artifactId>
-            <version>LATEST</version>
-            <scope>system</scope>
-            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.14.4.jar</systemPath>
-        </dependency>
+<!--        &lt;!&ndash; 1.13 R1 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.spigotmc</groupId>-->
+<!--            <artifactId>spigot-1.13</artifactId>-->
+<!--            <version>LATEST</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.13.jar</systemPath>-->
+<!--        </dependency>-->
 
-        <!-- 1.15 R1 -->
-        <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-1.15.2</artifactId>
-            <version>LATEST</version>
-            <scope>system</scope>
-            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.15.2.jar</systemPath>
-        </dependency>
+<!--        &lt;!&ndash; 1.13 R2 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.spigotmc</groupId>-->
+<!--            <artifactId>spigot-1.13.2</artifactId>-->
+<!--            <version>LATEST</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.13.2.jar</systemPath>-->
+<!--        </dependency>-->
 
-        <!-- 1.16 R1 -->
-        <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-1.16.1</artifactId>
-            <version>LATEST</version>
-            <scope>system</scope>
-            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.16.1.jar</systemPath>
-        </dependency>
+<!--        &lt;!&ndash; 1.14 R1 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.spigotmc</groupId>-->
+<!--            <artifactId>spigot-1.14.4</artifactId>-->
+<!--            <version>LATEST</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.14.4.jar</systemPath>-->
+<!--        </dependency>-->
 
-        <!-- 1.16 R2 -->
-        <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-1.16.3</artifactId>
-            <version>LATEST</version>
-            <scope>system</scope>
-            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.16.3.jar</systemPath>
-        </dependency>
+<!--        &lt;!&ndash; 1.15 R1 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.spigotmc</groupId>-->
+<!--            <artifactId>spigot-1.15.2</artifactId>-->
+<!--            <version>LATEST</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.15.2.jar</systemPath>-->
+<!--        </dependency>-->
 
-        <!-- 1.16 R3 -->
-        <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-1.16.5</artifactId>
-            <version>LATEST</version>
-            <scope>system</scope>
-            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.16.5.jar</systemPath>
-        </dependency>
+<!--        &lt;!&ndash; 1.16 R1 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.spigotmc</groupId>-->
+<!--            <artifactId>spigot-1.16.1</artifactId>-->
+<!--            <version>LATEST</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.16.1.jar</systemPath>-->
+<!--        </dependency>-->
+
+<!--        &lt;!&ndash; 1.16 R2 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.spigotmc</groupId>-->
+<!--            <artifactId>spigot-1.16.3</artifactId>-->
+<!--            <version>LATEST</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.16.3.jar</systemPath>-->
+<!--        </dependency>-->
+
+<!--        &lt;!&ndash; 1.16 R3 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.spigotmc</groupId>-->
+<!--            <artifactId>spigot-1.16.5</artifactId>-->
+<!--            <version>LATEST</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${env.BUILD_TOOLS_DIR}/spigot-1.16.5.jar</systemPath>-->
+<!--        </dependency>-->
 
     </dependencies>
 </project>
