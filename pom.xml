@@ -67,6 +67,11 @@
             <id>placeholderapi</id>
             <url>https://repo.extendedclip.com/content/repositories/placeholderapi/</url>
         </repository>
+        <!-- dmaax's private repository for NMS files. #Comment if trying to build. -->
+        <repository>
+            <id>reposilite</id>
+            <url>https://repo.dmaax.xyz/private/</url>
+        </repository>
 
     </repositories>
 
