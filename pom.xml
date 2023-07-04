@@ -96,8 +96,8 @@
         <!-- dmaax's custom 1.8 -> 1.13.2 NMS JAR file. #Comment if trying to build-->
         <dependency>
             <groupId>xyz.dmaax</groupId>
-            <artifactId>all-spigot-nms</artifactId>
-            <version>1.13.2</version>
+            <artifactId>all-spigot-nms-legacy</artifactId>
+            <version>LATEST</version>
             <scope>provided</scope>
         </dependency>
 
@@ -105,7 +105,7 @@
         <dependency>
             <groupId>xyz.dmaax</groupId>
             <artifactId>all-spigot-nms</artifactId>
-            <version>1.20.2</version>
+            <version>1.20.1</version>
             <scope>provided</scope>
         </dependency>
 
