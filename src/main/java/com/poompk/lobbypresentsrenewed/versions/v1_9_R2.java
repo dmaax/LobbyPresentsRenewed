@@ -43,4 +43,9 @@ public class v1_9_R2 implements Presents {
     public void setupDefaultSound() {
 
     }
+
+    @Override
+    public Integer getServerVersion() {
+        return 9;
+    };
 }

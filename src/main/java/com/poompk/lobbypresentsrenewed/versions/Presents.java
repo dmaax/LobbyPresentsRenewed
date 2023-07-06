@@ -14,4 +14,5 @@ public interface Presents {
     public void sendPickupSound(Player player);
     public void sendTitleBar(Player player, String message);
     public void setupDefaultSound();
+    public Integer getServerVersion();
 }
