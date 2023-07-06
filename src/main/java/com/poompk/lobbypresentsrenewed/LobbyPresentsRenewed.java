@@ -24,6 +24,9 @@ public final class LobbyPresentsRenewed extends JavaPlugin {
         instance = this;
         configManager = new ConfigManager();
         languageManager = new LanguageManager();
+
+        configManager.load();
+        languageManager.setup();
         registerEvents();
         registerCommands();
     }
