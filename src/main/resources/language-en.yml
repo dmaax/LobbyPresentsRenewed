@@ -1,0 +1,6 @@
+---
+actionbar: "&7[&bLPR&7] &f%status%"
+actionbar-completed: "&7[&bLPR&7] &bCompleted! &f%status%"
+presents.already-found: "&7[&bLPR&7] &cYou already found this present"
+presents.completed: "&7[&bLPR&7] &bMerry Christmas!! %status%"
+presents.found: "&7[&bLPR&7] &aYou found a present! &e(&b%found%&e/&b%total%&e) \n &aLet's see what Santa brought to you!"
