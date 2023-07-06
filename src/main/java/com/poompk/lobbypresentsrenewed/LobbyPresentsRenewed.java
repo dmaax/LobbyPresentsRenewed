@@ -67,6 +67,10 @@ public final class LobbyPresentsRenewed extends JavaPlugin {
         return configManager;
     }
 
+    public LanguageManager getLanguageManager() {
+        return languageManager;
+    }
+
     private void setupConfig() {
         saveDefaultConfig();
         getConfig().options().copyDefaults(true);
