@@ -18,7 +18,9 @@ public final class LobbyPresentsRenewed extends JavaPlugin {
     @Override
     public void onEnable() {
         setupConfig();
-        if (!validVersion()) disablePlugin("You server is running a version that is not supported.");
+        if (!validVersion()) {
+            Bukkit.getLogger().severe("The server version you are running is UNSUPPORTED.");
+        }
         instance = this;
         configManager = new ConfigManager();
         languageManager = new LanguageManager();
@@ -49,11 +51,6 @@ public final class LobbyPresentsRenewed extends JavaPlugin {
             return false;
         }
         return presents != null;
-    }
-
-    private void disablePlugin(String message) {
-        getLogger().severe(message);
-        Bukkit.getServer().getPluginManager().disablePlugin(this);
     }
 
     private void registerEvents() {
