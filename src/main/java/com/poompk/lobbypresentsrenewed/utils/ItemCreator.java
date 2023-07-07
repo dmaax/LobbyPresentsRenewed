@@ -9,12 +9,12 @@ import org.bukkit.inventory.meta.SkullMeta;
 
 import java.util.UUID;
 
-public class ItemManager {
+public class ItemCreator {
 
     private final LobbyPresentsRenewed instance;
     private static String SKULL_MATERIAL;
 
-    public ItemManager(LobbyPresentsRenewed instance) {
+    public ItemCreator(LobbyPresentsRenewed instance) {
         this.instance = instance;
         if (instance.SERVER_VERSION < 13) {
             SKULL_MATERIAL = "SKULL_ITEM";

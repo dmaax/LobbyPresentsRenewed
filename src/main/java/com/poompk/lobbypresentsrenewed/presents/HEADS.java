@@ -1,6 +1,6 @@
 package com.poompk.lobbypresentsrenewed.presents;
 
-import com.poompk.lobbypresentsrenewed.utils.ItemManager;
+import com.poompk.lobbypresentsrenewed.utils.ItemCreator;
 import org.bukkit.inventory.ItemStack;
 
 public enum HEADS {
@@ -94,7 +94,7 @@ public enum HEADS {
     private String id;
 
     private HEADS(String texture, String id) {
-        itemStack = ItemManager.createSkull(texture, id);
+        itemStack = ItemCreator.createSkull(texture, id);
         this.id = id;
     }
 
