@@ -109,6 +109,20 @@
             <scope>provided</scope>
         </dependency>
 
+        <!-- Adventure dependency (MiniMessage) -->
+        <dependency>
+            <groupId>net.kyori</groupId>
+            <artifactId>adventure-text-minimessage</artifactId>
+            <version>4.14.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.kyori</groupId>
+            <artifactId>adventure-platform-bukkit</artifactId>
+            <version>4.3.0</version>
+        </dependency>
+
+
 <!-- If cloning this repository, uncomment these dependencies and change accordingly -->
 <!--        &lt;!&ndash; 1.8 R1 &ndash;&gt;-->
 <!--        <dependency>-->
